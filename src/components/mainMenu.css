@@ -1,0 +1,19 @@
+.mainMenu {
+  background-color: #173753;
+  width: 100px;
+  height: 100vh;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.subMenu {
+  width: 84px;
+  padding-top: 20px;
+}
+.subMenu:hover {
+  background-color: #c4c4c4;
+}
+.subMenu:active {
+  background-color: #6494aa;
+}

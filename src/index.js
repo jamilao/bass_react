@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './setup/serviceWorker';
-import Homepage from './components/homepage';
+// import Homepage from './components/homepage';
+import MainMenu from './components/mainMenu';
 
 ReactDOM.render(
-  <Homepage />,
+  <MainMenu />,
   document.getElementById('root')
 );
 
