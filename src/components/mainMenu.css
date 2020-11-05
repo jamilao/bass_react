@@ -1,8 +1,16 @@
+:root {
+  --primary: #173753;
+  --secondary: #ffffff;
+  --tertiary: #decccc;
+  --accent1: #ef3e36;
+  --accent2: #6494aa;
+  --lightgray: #c4c4c4;
+}
 .mainMenu {
-  background-color: #173753;
+  background-color: var(--primary);
   width: 100px;
   height: 100vh;
-  color: white;
+  color: var(--secondary);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -12,8 +20,8 @@
   padding-top: 20px;
 }
 .subMenu:hover {
-  background-color: #c4c4c4;
+  background-color: var(--lightgray);
 }
 .subMenu:active {
-  background-color: #6494aa;
+  background-color: var(--accent2);
 }

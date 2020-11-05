@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './setup/serviceWorker';
 // import Homepage from './components/homepage';
-import MainMenu from './components/mainMenu';
+//import MainMenu from './components/mainMenu';
+import SignIn from './components/signIn';
 
 ReactDOM.render(
-  <MainMenu />,
+  <div><SignIn /></div>,
   document.getElementById('root')
 );
 
