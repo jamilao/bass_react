@@ -12,19 +12,8 @@
   padding-top: 3vh;
   background-color: var(--primary) !important;
 }
-#extendedMenu {
-  height: 100vh;
-  width: 385px;
-  background: var(--accent2);
-  border-radius: 0px 30px 30px 0px;
-  float: left;
-}
 .ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
   background-color: var(--accent2);
-  border-radius: 5px 0px 0px 5px;
-}
-#deselected {
-  background-color: var(--primary) !important;
   border-radius: 5px 0px 0px 5px;
 }
 .ant-menu-item .anticon {
@@ -39,4 +28,23 @@
 .ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
 .ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
   height: 70px;
+}
+.ant-menu-dark.ant-menu-inline,
+.ant-menu-dark.ant-menu-vertical,
+.ant-menu-dark.ant-menu-vertical-left,
+.ant-menu-dark.ant-menu-vertical-right {
+  border-right: 0;
+  float: left;
+}
+#extendedMenu {
+  height: 100vh;
+  width: 385px;
+  background: var(--accent2);
+  border-radius: 0px 30px 30px 0px;
+  float: left;
+  display: inline;
+}
+#deselected {
+  background-color: var(--primary) !important;
+  border-radius: 5px 0px 0px 5px;
 }
