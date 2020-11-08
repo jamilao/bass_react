@@ -1,0 +1,50 @@
+:root {
+  --primary: #173753;
+  --secondary: #ffffff;
+  --tertiary: #decccc;
+  --accent1: #ef3e36;
+  --accent2: #6494aa;
+  --lightgray: #c4c4c4;
+}
+.mainMenu {
+  height: 100vh;
+  width: 76px;
+  padding-top: 3vh;
+  background-color: var(--primary) !important;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected {
+  background-color: var(--accent2);
+  border-radius: 5px 0px 0px 5px;
+}
+.ant-menu-item .anticon {
+  margin-top: 20px;
+}
+.ant-menu-vertical > .ant-menu-item,
+.ant-menu-vertical-left > .ant-menu-item,
+.ant-menu-vertical-right > .ant-menu-item,
+.ant-menu-inline > .ant-menu-item,
+.ant-menu-vertical > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-left > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-vertical-right > .ant-menu-submenu > .ant-menu-submenu-title,
+.ant-menu-inline > .ant-menu-submenu > .ant-menu-submenu-title {
+  height: 70px;
+}
+.ant-menu-dark.ant-menu-inline,
+.ant-menu-dark.ant-menu-vertical,
+.ant-menu-dark.ant-menu-vertical-left,
+.ant-menu-dark.ant-menu-vertical-right {
+  border-right: 0;
+  float: left;
+}
+#extendedMenu {
+  height: 100vh;
+  width: 385px;
+  background: var(--accent2);
+  border-radius: 0px 30px 30px 0px;
+  float: left;
+  display: inline;
+}
+#deselected {
+  background-color: var(--primary) !important;
+  border-radius: 5px 0px 0px 5px;
+}

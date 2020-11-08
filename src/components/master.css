@@ -1,0 +1,53 @@
+/* master css style for top level designs
+** individual stylesheets can override this*/
+
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+:root {
+  --primary: #173753;
+  --secondary: #ffffff;
+  --tertiary: #decccc;
+  --accent1: #ef3e36;
+  --accent2: #6494aa;
+  --lightgray: #c4c4c4;
+}
+body {
+  font-family: "Lato", sans-serif;
+}
+h1 {
+  font-size: 48px;
+}
+h2 {
+  font-size: 24px;
+}
+h3 {
+  font-size: 18px;
+}
+h4 {
+  font-size: 14px;
+}
+p {
+  font-size: 14px;
+}
+a {
+  font-size: 14px;
+  color: var(--secondary);
+}
+.primary {
+  background-color: var(--primary);
+}
+.secondary {
+  background-color: var(--secondary);
+}
+.tertiary {
+  background-color: var(--tertiary);
+}
+.accent1 {
+  background-color: var(--accent1);
+}
+.accent2 {
+  background-color: var(--accent2);
+}
+.lightgray {
+  background-color: var(--lightgray);
+}

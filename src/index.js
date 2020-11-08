@@ -1,13 +1,13 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
-import * as serviceWorker from './serviceWorker';
+import * as serviceWorker from './setup/serviceWorker';
+// import Homepage from './components/homepage';
+import MainMenu from './components/mainMenu';
+//import SignIn from './components/signIn';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <div><MainMenu /></div>,
   document.getElementById('root')
 );
 
