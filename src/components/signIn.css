@@ -5,6 +5,7 @@
   --accent1: #ef3e36;
   --accent2: #6494aa;
   --lightgray: #c4c4c4;
+  --darkgray: #696969;
 }
 body {
   background-color: var(--primary);
