@@ -9,7 +9,6 @@ class MainMenu extends Component {
     constructor(){
         super();
         this.state = {
-            initialLoad: true,
             home: true,
             calendar: false,
             notifications: false,
@@ -20,8 +19,7 @@ class MainMenu extends Component {
     }
     toggleCollapsed = (menuItem) => {
         const selection = document.querySelector(".ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected");
-        const extendedMenu = document.getElementById("extendedMenu");
-        
+        const extendedMenu = document.getElementById("extendedMenu");    
         if(this.state[menuItem]){ // close extended menu 
             this.setState({
                 [menuItem]: false,

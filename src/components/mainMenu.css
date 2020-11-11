@@ -56,6 +56,15 @@
   float: left;
   display: inline;
 }
+@media screen and (max-width: 461px) {
+  #extendedMenu {
+    width: calc(100vw - 76px);
+    border-radius: 0;
+  }
+  .extendedMenuHeading {
+    width: 220px;
+  }
+}
 #deselected {
   background-color: var(--primary) !important;
   border-radius: 5px 0px 0px 5px;
