@@ -101,7 +101,7 @@ class MainMenu extends Component {
             fontSize: '24px'
         }
         return(
-            <React.Fragment>
+            <div className="container">
                 <Menu
                   mode="inline"
                   className="mainMenu"
@@ -114,9 +114,8 @@ class MainMenu extends Component {
                     <Menu.Item onClick={ () => this.toggleCollapsed("contacts") } className="subMenu" icon={<UserOutlined style={menuStyle}/>}></Menu.Item>
                     <Menu.Item onClick={ () => this.toggleCollapsed("settings") } className="subMenu" icon={<SettingOutlined style={menuStyle}/>}></Menu.Item>
                 </Menu>
-                <div id="extendedMenu">
-                </div>
-            </React.Fragment>           
+                <div id="extendedMenu"></div>
+            </div>           
         );
     }
 }

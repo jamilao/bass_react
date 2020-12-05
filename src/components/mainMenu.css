@@ -58,7 +58,7 @@
 }
 @media screen and (max-width: 461px) {
   #extendedMenu {
-    width: calc(100vw - 76px);
+    width: calc(100vw - 76px) !important;
     border-radius: 0;
   }
   .extendedMenuHeading {
